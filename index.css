@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("/backpfe.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 1000px; */
+
+}
+
+#error {
+
+    font-size: 15px;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    left: 55px;
+    bottom: 5px;
+
+}
+
+.iii {
+    height: 60px;
+    width: 60px;
+}
+
+.iii:hover {
+    cursor: pointer;
+}
+
+.titre {
+    font-family: 'Bebas Neue', cursive;
+
+    font-size: 80px;
+    position: absolute;
+    left: 40%;
+    font-weight: bolder;
+    bottom: 40%;
+}
+
+span {
+    color: sienna
+}
+
+#ul1 {
+    background-color: rgb(95, 86, 72);
+    height: 60px;
+}
+
+.inpt:focus {
+    border: none;
+}
+
+.rrr {
+    height: 500px;
+}
+
+#ul1 {
+    position: sticky;
+    top: 0px;
+}
+
+li[class^="x"] {
+
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 60px;
+    text-align: center;
+    float: right;
+    list-style: none;
+
+}
+
+li:hover {
+    cursor: pointer;
+    color: darkgoldenrod;
+    font-size: 15pt;
+}
+
+.xxx {
+
+    width: 300px;
+    height: 250px;
+    /* background-color: white; */
+    background-attachment: scroll;
+    position: fixed;
+    left: 0%;
+    top: 10%;
+    border-radius: 30px;
+
+    /* H-shadow | V-shadow | blur | spread | color | Inset */
+    box-shadow: 5px 5px 20px 0 rgb(104, 80, 52);
+
+}
+
+label {
+    display: block;
+}
+
+header {
+    height: 400px;
+}
+
+
+input {
+    display: block;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+
+}
+
+input {
+    width: 200px;
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+}
+
+div form {
+    position: absolute;
+    /* left: 23%; */
+    top: 23%;
+    text-align: center;
+}
+
+.save {
+    position: absolute;
+    left: 37%;
+    width: 55px;
+    border-radius: 20px;
+}
+
+
+.all {
+    position: absolute;
+    left: 18%;
+}
+
+.sub {
+    border-radius: 30px;
+
+}
+
+form :first-child {
+    margin-bottom: 8px;
+    padding-right: 100%;
+    font-weight: bold;
+    border-bottom: 2px solid saddlebrown;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+form :nth-child(3) {
+    border-bottom: 2px solid saddlebrown;
+    padding-top: 10px;
+    padding-right: 100%;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+form :last-child {
+    width: fit-content;
+    padding: 5px;
+    margin: 15px;
+    position: relative;
+    left: 20%;
+}
+
+.sub:hover {
+    cursor: pointer;
+}
+
+.inp {
+    background: none;
+}
+
+
+
+.bito {
+    position: absolute;
+    left: 68%;
+    top: 95%;
+}
+
+a:first-of-type {
+    color: white;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+a:link{
+    text-decoration: none;
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
