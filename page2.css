@@ -1,0 +1,155 @@
+* {
+     padding: 0;
+     margin: 0;
+}
+
+body {
+     background-image: url("original.jpg");
+
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 1000px;
+
+}
+
+.iii {
+     height: 60px;
+     width: 60px;
+}
+
+.iii:hover {
+     cursor: pointer;
+}
+
+ul {
+     background-color: rgb(95, 86, 72);
+     height: 60px;
+}
+
+
+.rrr {
+     height: 500px;
+}
+
+ul {
+     position: sticky;
+     top: 0px;
+}
+
+
+li {
+
+     color:whitesmoke;
+     padding: 10px;
+     margin: 10px;
+     width: 60px;
+     text-align: center;
+     float: right;
+     list-style: none;
+
+}
+.titre2{
+     color: whitesmoke;
+     font-family: 'Bebas Neue', cursive;
+     font-weight: bolder;
+     font-size: 60px;
+     position: absolute;
+     top: 30%;
+}
+.titre3{
+     color: sienna;
+     font-family: 'Bebas Neue', cursive;
+     font-weight: bolder;
+     font-size: 60px;
+     position: absolute; 
+     top: 45%;  
+}
+li:hover {
+     cursor: pointer;
+     color: darkgoldenrod;
+     font-size: 15pt;
+}
+.tit{
+     text-align: center;
+     background-color:rgb(156, 121, 80);
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;    
+}
+
+.xxx {
+
+     width: 300px;
+     height: 400px;
+     background-color: rgb(124, 119, 112);
+     background-attachment: scroll;
+     position: fixed;
+     left: 40%;
+     top: 25%;
+     /* H-shadow | V-shadow | blur | spread | color | Inset */
+     box-shadow: 5px 5px 20px 0 rgb(104, 80, 52);
+     border-radius: 30px;
+
+}
+
+label {
+     display: block;
+     margin: 4px;
+     font-family: 'Bebas Neue', cursive;
+}
+
+header {
+     height: 400px;
+}
+
+.one {
+
+     background-color: aqua;
+
+     width: 40%;
+     margin-left: auto;
+     margin-right: auto;
+
+}
+
+input {
+     width: 200px;
+    
+     height: 25px;
+     
+}
+
+div form {
+     position: absolute;
+     left: 23%;
+     top: 23%;
+     text-align: center;
+}
+
+.save {
+    background-color:rgb(156, 121, 80);
+     width: 120px;
+     border: none;
+     font-weight: bold;
+}
+
+/* visited is first _ secondly is hover _  */
+
+.save:hover{
+     cursor: pointer;
+}
+
+.all {
+     position: absolute;
+     left: 18%;
+     top: 15%;
+}
+a:link{
+     text-decoration: none;
+}
+a:hover{
+     color: darkgoldenrod;
+}
+a{
+     color: white;
+}

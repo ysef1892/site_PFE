@@ -1,0 +1,158 @@
+* {
+     padding: 0;
+     margin: 0;
+}
+
+body {
+     background-image: url("original.jpg");
+
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     /* height: 1000px; */
+
+}
+
+.iii {
+     height: 60px;
+     width: 60px;
+}
+
+.iii:hover {
+     cursor: pointer;
+}
+
+ul {
+     background-color: rgb(95, 86, 72);
+     height: 60px;
+}
+
+
+.rrr {
+     height: 500px;
+}
+
+ul {
+     position: sticky;
+     top: 0px;
+}
+
+li{
+
+     color:whitesmoke;
+     padding: 10px;
+     margin: 10px;
+     width: 60px;
+     text-align: center;
+     float: right;
+     list-style: none;
+
+}
+
+li:hover {
+     cursor: pointer;
+     color: darkgoldenrod;
+     font-size: 15pt;
+}
+
+
+label {
+     display: block;
+     margin: 4px;
+     font-family: 'Bebas Neue', cursive;
+}
+
+header {
+     height: 400px;
+}
+
+
+
+
+
+
+/* visited is first _ secondly is hover _  */
+
+
+a{
+     color: white;
+     display: block;
+     /* margin: 2px; */
+
+}
+a:hover{
+     color: darkgoldenrod;
+}
+.pop{
+     position: relative;
+     left: 45%;
+     bottom: 30%;
+
+}
+
+a:link{
+     text-decoration: none;
+}
+table{
+     border: solid 2px black;
+     border-collapse: collapse;
+     border: 8px 8px 8px 8px;
+}
+th{
+     color:white;
+     border: 2px solid sienna;
+     border-spacing: 0px;
+     font-family: 'Bebas Neue', cursive;
+     border-radius: 30px;
+}
+td :first-child{
+     color: black;
+     border: 2px solid sienna;
+     border-spacing: 0px;
+     font-family: 'Bebas Neue', cursive;
+     border-radius: 30px;   
+     background-color:peru;
+}
+td{
+     color:white;
+     border: 2px solid sienna;
+     border-spacing: 0px;
+     font-family: 'Bebas Neue', cursive;
+     border-radius: 30px;   
+     background-color: gray;
+     color: black;
+}
+h1{
+     font-size: 20px;
+     text-align: center;
+     margin: 5px;
+     background-color: saddlebrown;
+     border-radius: 10px;
+}
+
+.tab1{
+     position: absolute;
+     bottom: 30%;
+     left:5%;
+     /* text-align: center; */
+}
+.tab3{
+     position: absolute;
+     bottom: 30%;
+     right: 8%;
+}
+.tab2{
+     position: absolute;
+     bottom: 30%;
+     left: 36%;
+}
+
+a:hover{
+     color:paleturquoise;
+}
+th:first-of-type{
+     background-color: gray;
+}
+th:last-of-type{
+     background-color: peru;
+}
